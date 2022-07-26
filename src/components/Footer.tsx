@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   FaDribbbleSquare,
   FaFacebookSquare,
@@ -21,7 +20,11 @@ const Footer = () => {
           <FaDribbbleSquare size={30} />
         </div>
       </div>
-      <div>fuga</div>
+      <div className="lg:col-span-2 flex">
+        <div className="mx-auto">hoge</div>
+        <div className="mx-auto">fuga</div>
+        <div className="mx-auto">piyo</div>
+      </div>
     </footer>
   )
 }
