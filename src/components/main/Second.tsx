@@ -1,7 +1,7 @@
 import DualScreen from '../../assets/dual-screen.png'
 const Second = () => {
   return (
-    <div className="bg-white w-full py-16 px-4 text-black">
+    <div id="second" className="bg-white w-full py-16 px-4 text-black">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img
           className="w-[500px] mx-auto rounded-md py-4"

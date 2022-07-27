@@ -11,9 +11,15 @@ const Header = () => {
       <h1 className="w-full text-3xl text-[#00df9a]">Web Site</h1>
       <nav className="hidden md:flex">
         <ul className="flex ">
-          <li className="px-2 text-xl">Hoge</li>
-          <li className="px-2 text-xl">Fuga</li>
-          <li className="px-2 text-xl">Piyo</li>
+          <li className="px-2 text-xl">
+            <a href="#top">Top</a>
+          </li>
+          <li className="px-2 text-xl">
+            <a href="#second">Second</a>
+          </li>
+          <li className="px-2 text-xl">
+            <a href="#third">Third</a>
+          </li>
           <li className="px-2 text-xl">Gogo</li>
         </ul>
       </nav>

@@ -1,6 +1,9 @@
 const Top = () => {
   return (
-    <div className="max-w-[1240px] flex flex-col mt-[-96px] h-screen w-full  mx-auto text-center items-center justify-center">
+    <div
+      id="top"
+      className="max-w-[1240px] flex flex-col mt-[-96px] h-screen w-full  mx-auto text-center items-center justify-center"
+    >
       <p className="text-[#00df9a] font-bold p-2">
         hello world hoge fuga piyo gaga
       </p>
