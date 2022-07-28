@@ -3,7 +3,7 @@ const Second = () => {
   return (
     <div
       id="second"
-      className="bg-white w-full mt-24 px-4 text-black h-[80vh] flex justify-center items-center lg:h-[100vh]"
+      className="bg-white w-full mt-24 px-4 text-black h-[100vh] flex justify-center items-center lg:h-[100vh]"
     >
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img
@@ -11,7 +11,7 @@ const Second = () => {
           src={DualScreen}
           alt=""
         />
-        <div className="py-4 mx-auto flex flex-col px-4">
+        <div className="py-4 mx-auto flex flex-col px-4 items-center">
           <p className="text-[#00df9a] font-bold">hello! world!</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Programing Cool!
