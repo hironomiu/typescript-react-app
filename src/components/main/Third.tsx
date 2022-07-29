@@ -2,7 +2,7 @@ import React from 'react'
 
 const Third = () => {
   return (
-    <div id="third" className="w-full py-16 text-white px-4 h-[100vh]">
+    <div id="third" className="w-full py-36 text-white px-4 h-[100vh] ">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-1 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-xl font-bold">
