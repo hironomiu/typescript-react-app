@@ -1,9 +1,14 @@
-import React from 'react'
+import DualScreen from '../../assets/dual-screen.png'
 
 const Third = () => {
   return (
-    <div id="third" className="w-full py-36 text-white px-4 h-[100vh] ">
-      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
+    <div id="third" className="w-full py-36 text-white px-4  ">
+      <img
+        className="w-[600px] mx-auto rounded-md py-4"
+        src={DualScreen}
+        alt=""
+      />
+      <div className="max-w-[1240px] py-10 mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-1 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-xl font-bold">
             News Letter?

@@ -21,6 +21,9 @@ const Header = () => {
             <li className="px-2 text-xl">
               <a href="#third">Third</a>
             </li>
+            <li className="px-2 text-xl">
+              <a href="#fourth">Fourth</a>
+            </li>
           </ul>
         </nav>
         <div className="block md:hidden" onClick={handleClickIsNav}>
@@ -56,6 +59,12 @@ const Header = () => {
               className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4"
             >
               <a href="#third">Third</a>
+            </li>
+            <li
+              onClick={handleClickIsNav}
+              className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4"
+            >
+              <a href="#fourth">Fourth</a>
             </li>
           </ul>
         </div>
