@@ -12,6 +12,7 @@ const Footer = () => {
       <div>
         <h1 className="w-full text-3xl text-[#00df9a]">Web Site</h1>
         <p className="py-4">OK! hey! are are are OK!OK! bye!thank you!</p>
+        <p className="py-4">OK! hey! are are are OK!OK! bye!thank you!</p>
         <div className="flex justify-between md:w-[75%] mt-6">
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
@@ -21,7 +22,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:col-span-2 flex">
-        <div className="mx-auto">hoge</div>
+        <div className="mx-auto">
+          <p>hoge</p>
+          <p>hoge</p>
+          <p>hoge</p>
+          <p>hoge</p>
+        </div>
         <div className="mx-auto">fuga</div>
         <div className="mx-auto">piyo</div>
       </div>
