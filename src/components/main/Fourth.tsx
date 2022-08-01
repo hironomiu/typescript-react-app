@@ -1,7 +1,8 @@
 import React from 'react'
 const Fourth = () => {
   return (
-    <div id="fourth" className="bg-white text-black w-full  py-[10rem]">
+    // MEMO: z-indexでhover時もHeaderの上に来ないように指定(Header z-50)
+    <div id="fourth" className="bg-white text-black w-full  py-[10rem] z-10">
       <div className="grid lg:grid-cols-3 mx-auto gap-8 py-16 px-8 w-full">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 bg-gray-100">
           <h2 className="text-center text-2xl font-bold py-8">CardA</h2>

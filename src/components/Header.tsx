@@ -7,7 +7,7 @@ const Header = () => {
     setIsSideNav(!isSideNav)
   }
   return (
-    <div className="top-0 fixed w-full">
+    <div className="top-0 fixed w-full z-50">
       <header className="flex justify-between items-center h-24 mx-auto px-4 bg-gray-900/50">
         <h1 className="w-full text-3xl text-[#00df9a]">Web Site</h1>
         <nav className="hidden md:flex">
