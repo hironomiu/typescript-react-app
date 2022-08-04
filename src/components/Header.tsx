@@ -42,29 +42,25 @@ const Header = () => {
         >
           <h1 className="w-full text-3xl mt-8">Side Menu　　　　　</h1>
           <ul className="flex flex-col pt-10">
-            <li
-              onClick={handleClickIsNav}
-              className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4"
-            >
-              <a href="#top">Top</a>
+            <li className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4">
+              <a href="#top" className="block" onClick={handleClickIsNav}>
+                Top
+              </a>
             </li>
-            <li
-              onClick={handleClickIsNav}
-              className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4"
-            >
-              <a href="#second">Second</a>
+            <li className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4">
+              <a href="#second" className="block" onClick={handleClickIsNav}>
+                Second
+              </a>
             </li>
-            <li
-              onClick={handleClickIsNav}
-              className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4"
-            >
-              <a href="#third">Third</a>
+            <li className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4">
+              <a href="#third" className="block" onClick={handleClickIsNav}>
+                Third
+              </a>
             </li>
-            <li
-              onClick={handleClickIsNav}
-              className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4"
-            >
-              <a href="#fourth">Fourth</a>
+            <li className="px-2 text-xl border-b border-gray-300 pt-4 pb-2 mr-4">
+              <a href="#fourth" className="block" onClick={handleClickIsNav}>
+                Fourth
+              </a>
             </li>
           </ul>
         </div>
