@@ -8,6 +8,8 @@ npx create-react-app --template typescript .
 
 ### Tailwind
 
+[Tailwind:React](https://tailwindcss.com/docs/guides/create-react-app)
+
 ### react-icons
 
 ```
